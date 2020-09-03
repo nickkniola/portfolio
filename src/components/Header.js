@@ -17,19 +17,19 @@ const Header = () => {
 
     return (
         <React.Fragment>
-            <Navbar color="secondary" className="navbar navbar-expand-sm navbar-dark sticky-top">
-                <NavbarToggler onClick={toggleNav} />
+            <Navbar color="dark" className="navbar-dark navbar-expand-sm sticky-top">
+                <NavbarToggler color="white" onClick={toggleNav} />
                 <Collapse isOpen={isNavOpen} navbar>
-                    <Nav>
+                    <Nav className="mx-auto">
                         <NavItem className="nav-text">
-                            <NavLink className="nav-link" href="#">
+                            <NavLink className="nav-link active" href="#">
                                 <FontAwesomeIcon icon={faHome} size="lg" />{" "}
                                 Home
                             </NavLink>
                         </NavItem>
                         <NavItem className="nav-text">
-                            <NavLink className="nav-link" href="projects.html"><FontAwesomeIcon icon={faBriefcase} size="lg" />{" "}
-                                    Projects
+                            <NavLink className="nav-link" href="#"><FontAwesomeIcon icon={faBriefcase} size="lg" />{" "}
+                                 Portfolio
                             </NavLink>
                         </NavItem>
                         <NavItem className="nav-text">
