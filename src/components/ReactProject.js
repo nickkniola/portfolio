@@ -16,22 +16,24 @@ const ReactProject = () => {
                     </figure>
                 </Col>
             </Row>
-            <figure className="box-shadow py-4 px-4">
-            <Row className="m-0">
-                <Col xs={7}>
-                    <div>
-                        <h4>Hang</h4>
-                    </div>
-                    <div>
-                        <p className="text-justify">A passion project which pairs up users with people in their location based on common interests for activities. The only app which makes plans for you!</p>
-                    </div>
-                </Col>
-                <Col xs={5} className="d-flex justify-content-center">
-                    <Button color="link"><a href="https://hangwebapp.netlify.app/">View Site</a></Button>
-                    <Button color="link"><a href="https://github.com/nickkniola/hang">View Github</a></Button>
-                </Col>
-            </Row>
+            <Row className="d-flex justify-content-center">
+            <figure className="box-shadow py-4 px-4 portfolio-description">
+                <Row className="m-0" >
+                    <Col xs={7} >
+                        <div>
+                            <h4>Hang</h4>
+                        </div>
+                        <div>
+                            <p className="text-justify">A passion project which pairs up users with people in their location based on common interests for activities. The only app which makes plans for you!</p>
+                        </div>
+                    </Col>
+                    <Col xs={5} className="d-flex justify-content-center">
+                        <Button color="link"><a href="https://hangwebapp.netlify.app/">View Site</a></Button>
+                        <Button color="link"><a href="https://github.com/nickkniola/hang">View Github</a></Button>
+                    </Col>
+                </Row>
             </figure>
+            </Row>
         </Container>
     );
 }

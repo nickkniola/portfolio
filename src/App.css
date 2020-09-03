@@ -12,3 +12,8 @@
 .header-font {
   font-family: 'Avenir', 'Arial', sans-serif;
 }
+
+.portfolio-description {
+  max-width: 800px;
+
+}
