@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div>Footer</div>
+        <div className="d-flex justify-content-center">Nicholas Kniola 2020</div>
     );
 }
 

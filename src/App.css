@@ -17,3 +17,17 @@
   max-width: 800px;
 
 }
+
+.main-background {
+  clip-path: polygon(0% 0% , 100% 0%, 100% 100%, 0% 66%);
+}
+
+.main-space {
+  height: 200px;
+}
+
+.email-me {
+  font-size: 18pt;
+  
+
+}

@@ -7,6 +7,7 @@ import Footer from './components/Footer';
 import Profile from './components/Profile';
 import BootstrapProject from './components/BootstrapProject';
 import ReactProject from './components/ReactProject';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Profile />
       <ReactProject />
       <BootstrapProject />
+      <Contact />
       <Footer />
     </div>
   );

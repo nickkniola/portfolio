@@ -3,7 +3,7 @@ import { Container, Row, Col, Media, Button } from 'reactstrap';
 
 const ReactProject = () => {
     return (
-        <Container>
+        <Container className="my-4 py-2">
             <Row>
                 <Col className="d-flex justify-content-center my-4">
                     <h2>Portfolio</h2>
@@ -12,7 +12,7 @@ const ReactProject = () => {
             <Row>
                 <Col className="d-flex justify-content-center">
                     <figure className="box-shadow">
-                        <Media object src="assets/images/Hang_Web_App_Image.png" alt="Generic placeholder image" />
+                    <a href="https://hangwebapp.netlify.app/"><Media object src="assets/images/Hang_Web_App_Image.png" alt="Hang Web App image" /></a>
                     </figure>
                 </Col>
             </Row>
@@ -24,7 +24,7 @@ const ReactProject = () => {
                             <h4>Hang</h4>
                         </div>
                         <div>
-                            <p className="text-justify">A passion project which pairs up users with people in their location based on common interests for activities. The only app which makes plans for you!</p>
+                            <p className="text-justify">A React web app passion project which pairs up users with people in their location based on common interests for activities. The only app which makes plans for you! The mobile app is currently in development.</p>
                         </div>
                     </Col>
                     <Col xs={5} className="d-flex justify-content-center">
