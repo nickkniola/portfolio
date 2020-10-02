@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, Media, Button } from 'reactstrap';
+import { Container, Row, Col, Button } from 'reactstrap';
 
 const BootstrapProject = () => {
     return (
@@ -7,7 +7,7 @@ const BootstrapProject = () => {
             <Row>
                 <Col className="d-flex justify-content-center">
                     <figure className="box-shadow">
-                        <a href="https://nickkniola.github.io/wireless/index.html"><Media object src="assets/images/wireless-project-image.png" alt="Wireless Website image" /></a>
+                        <a href="https://nickkniola.github.io/wireless/index.html"><img src="assets/images/wireless-project-image.png" class="image-width" alt="Wireless Website" /></a>
                     </figure>
                 </Col>
             </Row>

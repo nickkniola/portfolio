@@ -1,8 +1,10 @@
 import React from 'react';
-import { Container, Row, Col, Media, Button } from 'reactstrap';
+import { Container, Row, Col, Button } from 'reactstrap';
 
 const ReactProject = () => {
     return (
+    <React.Fragment>
+        <div className="main-space" id="portfolio"></div>
         <Container className="my-4 py-2">
             <Row>
                 <Col className="d-flex justify-content-center my-4">
@@ -12,7 +14,7 @@ const ReactProject = () => {
             <Row>
                 <Col className="d-flex justify-content-center">
                     <figure className="box-shadow">
-                    <a href="https://hangwebapp.netlify.app/"><Media object src="assets/images/Hang_Web_App_Image.png" alt="Hang Web App image" /></a>
+                    <a href="https://hangwebapp.netlify.app/"><img src="./assets/images/Hang_Web_App_Image.png" class="image-width" alt="Hang Web App" /></a>
                     </figure>
                 </Col>
             </Row>
@@ -35,6 +37,7 @@ const ReactProject = () => {
             </figure>
             </Row>
         </Container>
+    </React.Fragment>
     );
 }
 

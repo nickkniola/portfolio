@@ -8,17 +8,20 @@ import Profile from './components/Profile';
 import BootstrapProject from './components/BootstrapProject';
 import ReactProject from './components/ReactProject';
 import Contact from './components/Contact';
+import { HashRouter } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
+    <HashRouter>
       <FontAwesomeIcon icon={["fal", "coffee"]} />
       <Header />
-      <Profile />
+      <Profile id="section1"/>
       <ReactProject />
       <BootstrapProject />
       <Contact />
       <Footer />
+    </HashRouter>
     </div>
   );
 }

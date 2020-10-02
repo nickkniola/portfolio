@@ -4,8 +4,8 @@ import { Container, Row, Col, Media } from 'reactstrap';
 const Contact = () => {
     return (
         <React.Fragment >
-            <div className="main-space"></div>
-            <Container>
+            <div className="second-space"/>
+            <Container id="contact">
                 <Row>
                     <Col className="d-flex justify-content-center my-4" xs={12}>
                         <h2>Contact</h2>
@@ -35,7 +35,7 @@ const Contact = () => {
                     </div>
                 </Row>
             </Container>
-            <div className="main-space"></div>
+            <div className="second-space"/>
         </React.Fragment>
     );
 }

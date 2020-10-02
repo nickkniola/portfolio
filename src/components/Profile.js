@@ -2,10 +2,10 @@ import React from 'react';
 import { Row, Col, Jumbotron, Container } from 'reactstrap';
 
 const Profile = (props) => {
-  
+
 
     return (
-        <div>
+        <div id="home-section">
             <Jumbotron className="main-background bg-light">
                 <Container >
                     <Row className="mx-auto pl-4 pr-4 portfolio-description">
@@ -18,7 +18,7 @@ const Profile = (props) => {
                             <p className="lead">Exceptionally focused and reliable front end developer, with an emphasis in Javascript and React, eager to contribute to developing projects with a passion for creating, attention to detail, and excellent problem solving skills. Able to work both independently or as a part of a development team. Motivated to learn, grow and excel in the software industry.</p>
                         </Col>
                     </Row>
-                    <div className="main-space"></div>
+                    <div className="second-space"></div>
                 </Container>
             </Jumbotron>
         </div>
