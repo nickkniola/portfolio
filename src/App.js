@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import "bootstrap/dist/css/bootstrap.css";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Profile from './components/Profile';
@@ -14,7 +13,6 @@ function App() {
   return (
     <div className="App">
     <HashRouter>
-      <FontAwesomeIcon icon={["fal", "coffee"]} />
       <Header />
       <Profile id="section1"/>
       <ReactProject />
