@@ -14,7 +14,7 @@ const ReactProject = () => {
             <Row>
                 <Col className="d-flex justify-content-center">
                     <figure className="box-shadow">
-                    <a href="https://hangwebapp.netlify.app/"><img src="./assets/images/Hang_Web_App_Image.png" class="image-width" alt="Hang Web App" /></a>
+                    <a href="https://hang-web-app.herokuapp.com/"><img src="/assets/images/hang_image.png" className="image-width" alt="Hang Web App" /></a>
                     </figure>
                 </Col>
             </Row>
@@ -26,11 +26,12 @@ const ReactProject = () => {
                             <h4>Hang</h4>
                         </div>
                         <div>
-                            <p className="text-justify">A React web app passion project which pairs up users with people in their location based on common interests for activities. The only app which makes plans for you! The mobile app is currently in development.</p>
+                            <p className="text-justify">Pair up with people in your location based on common interests in a variety of activities. The only web app which makes plans for you!</p>
+                            <p className="text-justify">React.js | Node.js | Express | PostgreSQL | Socket.io | Google Maps API | Semantic UI </p>
                         </div>
                     </Col>
                     <Col xs={5} className="d-flex justify-content-center">
-                        <Button color="link"><a href="https://hangwebapp.netlify.app/">View Site</a></Button>
+                        <Button color="link"><a href="https://hang-web-app.herokuapp.com/">View Site</a></Button>
                         <Button color="link"><a href="https://github.com/nickkniola/hang">View Github</a></Button>
                     </Col>
                 </Row>

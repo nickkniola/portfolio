@@ -7,7 +7,9 @@ const BootstrapProject = () => {
             <Row>
                 <Col className="d-flex justify-content-center">
                     <figure className="box-shadow">
-                        <a href="https://nickkniola.github.io/wireless/index.html"><img src="assets/images/wireless-project-image.png" class="image-width" alt="Wireless Website" /></a>
+                        <a href="https://nickkniola.github.io/wireless/index.html">
+                            <img src="assets/images/wireless-project-image.png" className="image-width" alt="Wireless Website" />
+                        </a>
                     </figure>
                 </Col>
             </Row>
@@ -19,7 +21,8 @@ const BootstrapProject = () => {
                             <h4>Wireless</h4>
                         </div>
                         <div>
-                            <p className="text-justify">The idea for this responsive Bootstrap website is a wireless phone network site, which allows the user to easily select plans and checkout.</p>
+                            <p className="text-justify">Wireless is a mobile network Bootstrap website, which allows the user to easily select plans and checkout.</p>
+                            <p className="text-justify">jQuery | JavaScript | Bootstrap | CSS</p>
                         </div>
                     </Col>
                     <Col xs={5} className="d-flex justify-content-center">
