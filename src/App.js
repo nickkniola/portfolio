@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import Profile from './components/Profile';
 import BootstrapProject from './components/BootstrapProject';
 import ReactProject from './components/ReactProject';
+import CryptoProject from './components/CryptoProject';
 import Contact from './components/Contact';
 import { HashRouter } from 'react-router-dom';
 
@@ -16,6 +17,7 @@ function App() {
       <Header />
       <Profile id="section1"/>
       <ReactProject />
+      <CryptoProject />
       <BootstrapProject />
       <Contact />
       <Footer />
