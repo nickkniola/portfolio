@@ -7,7 +7,7 @@ const BootstrapProject = () => {
             <Row>
                 <Col className="d-flex justify-content-center">
                     <figure className="box-shadow">
-                        <a href="https://nickkniola.github.io/wireless/index.html">
+                        <a href="https://nickkniola.github.io/wireless/index.html" target="_blank" rel="noopener noreferrer">
                             <img src="assets/images/wireless-project-image.png" className="image-width" alt="Wireless Website" />
                         </a>
                     </figure>
@@ -26,8 +26,8 @@ const BootstrapProject = () => {
                         </div>
                     </Col>
                     <Col xs={5} className="d-flex justify-content-center">
-                        <Button color="link"><a href="https://nickkniola.github.io/wireless/index.html">View Site</a></Button>
-                        <Button color="link"><a href="https://github.com/nickkniola/wireless">View Github</a></Button>
+                        <Button color="link"><a href="https://nickkniola.github.io/wireless/index.html" target="_blank" rel="noopener noreferrer">View Site</a></Button>
+                        <Button color="link"><a href="https://github.com/nickkniola/wireless" target="_blank" rel="noopener noreferrer">View Github</a></Button>
                     </Col>
                 </Row>
             </figure>

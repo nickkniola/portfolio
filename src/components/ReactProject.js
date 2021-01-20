@@ -14,7 +14,9 @@ const ReactProject = () => {
             <Row>
                 <Col className="d-flex justify-content-center">
                     <figure className="box-shadow">
-                    <a href="https://hang-web-app.herokuapp.com/"><img src="/assets/images/hang_image.png" className="image-width" alt="Hang Web App" /></a>
+                        <a href="https://hang-web-app.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                            <img src="/assets/images/hang_image.png" className="image-width" alt="Hang Web App" />
+                        </a>
                     </figure>
                 </Col>
             </Row>
@@ -31,8 +33,8 @@ const ReactProject = () => {
                         </div>
                     </Col>
                     <Col xs={5} className="d-flex justify-content-center">
-                        <Button color="link"><a href="https://hang-web-app.herokuapp.com/">View Site</a></Button>
-                        <Button color="link"><a href="https://github.com/nickkniola/hang">View Github</a></Button>
+                        <Button color="link"><a href="https://hang-web-app.herokuapp.com/" target="_blank" rel="noopener noreferrer">View Site</a></Button>
+                        <Button color="link"><a href="https://github.com/nickkniola/hang" target="_blank" rel="noopener noreferrer">View Github</a></Button>
                     </Col>
                 </Row>
             </figure>
