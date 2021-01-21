@@ -10,7 +10,6 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 
 const Header = () => {
-
     const [isNavOpen, setNavOpen] = useState(false);
 
     const toggleNav = () => {
@@ -20,15 +19,6 @@ const Header = () => {
     const scrollToHome = () => {
         window.scrollTo(0, 0)
     };
-
-    // const scrollToPortfolio = () => {
-    //     window.scrollTo(0, 600)
-    // };
-
-    // const scrollToContact = () => {
-    //     window.scrollTo(0, 2100)
-    // };
-
 
     return (
         <React.Fragment>
@@ -72,15 +62,6 @@ const Header = () => {
                     </Nav>
                 </Collapse>
             </Navbar>
-   {/* <Link
-        to={{
-            pathname: "/ReactProject",
-            search: "",
-            hash: "#test",
-            state: { fromDashboard: true }
-        }}
-    >test</Link> */}
-
         </React.Fragment>
     );
 }
