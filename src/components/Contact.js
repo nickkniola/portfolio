@@ -8,7 +8,7 @@ const Contact = () => {
             <Container id="contact">
                 <Row>
                     <Col className="d-flex justify-content-center my-4" xs={12}>
-                        <h2>Contact</h2>
+                        <h2 className="portfolio-header">Contact</h2>
                     </Col>
                 </Row>
                 <Row>

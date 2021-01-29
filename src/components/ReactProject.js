@@ -8,7 +8,7 @@ const ReactProject = () => {
         <Container className="my-4 py-2">
             <Row>
                 <Col className="d-flex justify-content-center my-4">
-                    <h2>Portfolio</h2>
+                    <h2 className="portfolio-header">Portfolio</h2>
                 </Col>
             </Row>
             <Row>
