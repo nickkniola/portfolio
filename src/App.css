@@ -37,3 +37,8 @@
   border-bottom: 2px solid rgb(65, 124, 209);
   margin-bottom: 1rem;
 }
+
+.skill-icon {
+  width: 100px;
+  height: 100px;
+}
