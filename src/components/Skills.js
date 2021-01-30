@@ -10,8 +10,8 @@ const Skills = () => {
               <h2 className="portfolio-header">Skills</h2>
           </Col>
         </Row>
-        <Row className="mb-5">
-          <Col>
+        <Row className="mb-2">
+          <Col xs="6" sm="3" className="mb-2">
             <Row className="d-flex justify-content-center">
               <img className="skill-icon" src="assets/images/react.svg" alt="React.js"></img>
             </Row>
@@ -19,7 +19,7 @@ const Skills = () => {
               React.js
             </Row>
           </Col>
-          <Col>
+          <Col xs="6" sm="3" className="mb-2">
             <Row className="d-flex justify-content-center">
               <img className="skill-icon" src="assets/images/javascript.svg" alt="JavaScript"></img>
             </Row>
@@ -27,7 +27,7 @@ const Skills = () => {
               JavaScript ES6
             </Row>
           </Col>
-          <Col>
+          <Col xs="6" sm="3">
             <Row className="d-flex justify-content-center">
               <img className="skill-icon" src="assets/images/html5.svg" alt="HTML5"></img>
             </Row>
@@ -35,7 +35,7 @@ const Skills = () => {
               HTML5
             </Row>
           </Col>
-          <Col>
+          <Col xs="6" sm="3">
             <Row className="d-flex justify-content-center">
               <img className="skill-icon" src="assets/images/css3.svg" alt="CSS3"></img>
             </Row>
@@ -44,8 +44,8 @@ const Skills = () => {
             </Row>
           </Col>
         </Row>
-        <Row>
-          <Col>
+        <Row className="mb-2">
+          <Col xs="6" sm="3"  className="mb-2">
             <Row className="d-flex justify-content-center">
               <img className="skill-icon" src="assets/images/node-js.svg" alt="Node"></img>
             </Row>
@@ -53,7 +53,7 @@ const Skills = () => {
               Node.js
             </Row>
           </Col>
-          <Col>
+          <Col xs="6" sm="3" className="mb-2">
             <Row className="d-flex justify-content-center">
               <img className="skill-icon" src="assets/images/express.svg" alt="Express"></img>
             </Row>
@@ -61,7 +61,7 @@ const Skills = () => {
               Express
             </Row>
           </Col>
-          <Col>
+          <Col xs="6" sm="3">
             <Row className="d-flex justify-content-center">
               <img className="skill-icon" src="assets/images/postgresql.svg" alt="Express"></img>
             </Row>
@@ -69,7 +69,7 @@ const Skills = () => {
               PostgreSQL
             </Row>
           </Col>
-          <Col>
+          <Col xs="6" sm="3">
             <Row className="d-flex justify-content-center">
               <img className="skill-icon" src="assets/images/bootstrap.svg" alt="Express"></img>
             </Row>

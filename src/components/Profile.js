@@ -7,7 +7,7 @@ const Profile = (props) => {
             <Jumbotron className="main-background bg-light">
                 <Container className="pl-4 pr-4">
                     <Col xs="12" lg="10" className="mx-auto">
-                        <Row>
+                        <Row className="justify-content-center row">
                             <Col sm="8">
                                 <Row className="mx-auto portfolio-description">
                                     <Col>
@@ -20,7 +20,7 @@ const Profile = (props) => {
                                     </Col>
                                 </Row>
                             </Col>
-                            <Col xs="auto" sm="4">
+                            <Col xs={{ size: 'auto', 'text-align': 'center' }} sm="4">
                                 <img className="box-shadow" src="assets/images/profile.jpg" alt="Profile" />
                             </Col>
                         </Row>
