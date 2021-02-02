@@ -16,7 +16,7 @@ const Profile = (props) => {
                                 </Row>
                                 <Row className="mx-auto portfolio-description">
                                     <Col className="text-justify" >
-                                        <p className="lead">Exceptionally focused and reliable full stack developer, with an emphasis in Javascript and React, eager to contribute to developing projects, with a passion for creating, attention to detail, and excellent problem solving skills. Able to work both independently or as a part of a development team. Motivated to learn, grow, and excel in the software industry.</p>
+                                        <p className="lead">Exceptionally focused and reliable full stack developer, with an emphasis in Javascript and React, eager to contribute to developing projects with a strong attention to detail. I attended both NuCamp Coding Bootcamp and the intensive web development program at LearningFuze, which has both a development first approach to learning and an extensive curriculum in the foundations of JavaScript, HTML, and CSS, and more advanced technologies, such as React, Node, Express, and PostgreSQL. During my time at LearningFuze, I developed full stack web applications, relying heavily on documentation and improved my problem-solving approach. I have a passion for creating quality user interfaces and meaningful functionality, and work well independently or as part of a development team. I am motivated to learn, grow, and excel in the software industry.</p>
                                     </Col>
                                 </Row>
                             </Col>

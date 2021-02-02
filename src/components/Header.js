@@ -7,8 +7,6 @@ import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
 import { faFile } from '@fortawesome/free-solid-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
-
-
 const Header = () => {
     const [isNavOpen, setNavOpen] = useState(false);
 
