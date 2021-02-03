@@ -78,6 +78,40 @@ const Skills = () => {
             </Row>
           </Col>
         </Row>
+        <Row className="mb-2">
+          <Col xs="6" sm="3"  className="mb-2">
+            <Row className="d-flex justify-content-center">
+              <img className="skill-icon" src="assets/images/git.png" alt="Git"></img>
+            </Row>
+            <Row className="d-flex justify-content-center mt-1">
+              Git
+            </Row>
+          </Col>
+          <Col xs="6" sm="3" className="mb-2">
+            <Row className="d-flex justify-content-center">
+              <img className="skill-icon" src="assets/images/vs-code.svg" alt="VS Code"></img>
+            </Row>
+            <Row className="d-flex justify-content-center mt-1">
+              VS Code
+            </Row>
+          </Col>
+          <Col xs="6" sm="3">
+            <Row className="d-flex justify-content-center">
+              <img className="skill-icon" src="assets/images/npm.svg" alt="NPM"></img>
+            </Row>
+            <Row className="d-flex justify-content-center mt-1">
+              npm
+            </Row>
+          </Col>
+          <Col xs="6" sm="3">
+            <Row className="d-flex justify-content-center">
+              <img className="skill-icon" src="assets/images/aws.svg" alt="AWS"></img>
+            </Row>
+            <Row className="d-flex justify-content-center mt-1">
+              AWS
+            </Row>
+          </Col>
+        </Row>
       </Container>
       <div className="second-space"/>
     </React.Fragment>

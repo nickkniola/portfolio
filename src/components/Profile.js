@@ -43,10 +43,10 @@ const Profile = (props) => {
                                             <FontAwesomeIcon className="envelope-mini-icon" icon={faEnvelope} size="lg" />
                                         </a>
                                         <a href="https://github.com/nickkniola" rel="noopener noreferrer" target="_blank">
-                                            <img className="contact-icon" src="assets/images/GitHub-Logo.png" alt="GitHub"></img>
+                                            <img className="contact-icon" src="assets/images/github.svg" alt="GitHub"></img>
                                         </a>
                                         <a href="https://www.linkedin.com/in/nicholaskniola/" rel="noopener noreferrer" target="_blank">
-                                            <img className="contact-icon" src="assets/images/LinkedIn.png" alt="LinkedIn"></img>
+                                            <img className="contact-icon" src="assets/images/linkedin.svg" alt="LinkedIn"></img>
                                         </a>
                                     </Col>
                                 </Row>
