@@ -37,7 +37,27 @@
   margin-bottom: 1rem;
 }
 
+.icon-column {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
 .skill-icon {
   width: 100px;
   height: 100px;
+}
+
+.contact-icon {
+  width: 29px;
+  height: 29px;
+}
+
+.envelope-mini-icon {
+  color: black;
+}
+
+.location-text {
+  margin-bottom: 0.2rem;
+  margin-top: 0.1rem;
 }
