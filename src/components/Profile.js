@@ -14,7 +14,12 @@ const Profile = (props) => {
                             <Col sm="8">
                                 <Row className="mx-auto portfolio-description">
                                     <Col>
-                                        <h1 className="display-4 header-font">Nicholas Kniola</h1>
+                                        <h1 className="display-4 header-font main-header">Nicholas Kniola</h1>
+                                    </Col>
+                                </Row>
+                                <Row className="mx-auto portfolio-description">
+                                    <Col>
+                                        <h2 className="display-5 header-font">Full Stack Developer</h2>
                                     </Col>
                                 </Row>
                                 <Row className="mx-auto portfolio-description">
@@ -37,11 +42,11 @@ const Profile = (props) => {
                                         <a className="email-me" href="mailto: nickkniola@me.com">
                                             <FontAwesomeIcon className="envelope-mini-icon" icon={faEnvelope} size="lg" />
                                         </a>
-                                        <a href="https://www.linkedin.com/in/nicholaskniola/" rel="noopener noreferrer" target="_blank">
-                                            <img className="contact-icon" src="assets/images/LinkedIn.png" alt="LinkedIn"></img>
-                                        </a>
                                         <a href="https://github.com/nickkniola" rel="noopener noreferrer" target="_blank">
                                             <img className="contact-icon" src="assets/images/GitHub-Logo.png" alt="GitHub"></img>
+                                        </a>
+                                        <a href="https://www.linkedin.com/in/nicholaskniola/" rel="noopener noreferrer" target="_blank">
+                                            <img className="contact-icon" src="assets/images/LinkedIn.png" alt="LinkedIn"></img>
                                         </a>
                                     </Col>
                                 </Row>
