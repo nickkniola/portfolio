@@ -1,5 +1,8 @@
 import React from 'react';
 import { Row, Col, Jumbotron, Container } from 'reactstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 
 const Profile = (props) => {
     return (
@@ -11,17 +14,42 @@ const Profile = (props) => {
                             <Col sm="8">
                                 <Row className="mx-auto portfolio-description">
                                     <Col>
-                                        <h1 className="display-4 header-font">Nicholas Kniola</h1>
+                                        <h1 className="display-4 header-font main-header">Nicholas Kniola</h1>
+                                    </Col>
+                                </Row>
+                                <Row className="mx-auto portfolio-description">
+                                    <Col>
+                                        <h2 className="display-5 header-font">Full Stack Developer</h2>
                                     </Col>
                                 </Row>
                                 <Row className="mx-auto portfolio-description">
                                     <Col className="text-justify" >
-                                        <p className="lead">Exceptionally focused and reliable full stack developer, with an emphasis in Javascript and React, eager to contribute to developing projects with a strong attention to detail. I attended both NuCamp Coding Bootcamp and the intensive web development program at LearningFuze, which has both a development first approach to learning and an extensive curriculum in the foundations of JavaScript, HTML, and CSS, and more advanced technologies, such as React, Node, Express, and PostgreSQL. During my time at LearningFuze, I developed full stack web applications, relying heavily on documentation and improved my problem-solving approach. I have a passion for creating quality user interfaces and meaningful functionality, and work well independently or as part of a development team. I am motivated to learn, grow, and excel in the software industry.</p>
+                                        <p>Exceptionally focused and reliable full stack developer, with an emphasis in Javascript and React, eager to contribute to developing projects with a strong attention to detail. I attended both NuCamp Coding Bootcamp and the intensive web development program at LearningFuze, with a hands-on development first approach to learning and extensive curriculum in the foundations of JavaScript, HTML, and CSS, and more advanced technologies, such as React, Node, Express, and PostgreSQL. During my time at LearningFuze, I developed full stack web applications, relying heavily on documentation and improved my problem-solving approach. I have a passion for creating quality user interfaces and meaningful functionality, and work well independently or as part of a development team. I am motivated to learn, grow, and excel in the software industry.</p>
                                     </Col>
                                 </Row>
                             </Col>
-                            <Col xs={{ size: 'auto', 'text-align': 'center' }} sm="4">
-                                <img className="box-shadow" src="assets/images/profile.jpg" alt="Profile" />
+                            <Col xs={{ size: 'auto' }} sm="4">
+                                <Row className="mb-2">
+                                    <img className="box-shadow profile-image mx-auto" src="assets/images/profile.jpg" alt="Profile" />
+                                </Row>
+                                <Row>
+                                    <Col className="icon-column">
+                                        <p className="location-text"><FontAwesomeIcon icon={faMapMarkerAlt} size="lg" />{" "}Los Angeles, CA</p>
+                                    </Col>
+                                </Row>
+                                <Row>
+                                    <Col className="icon-column mx-4">
+                                        <a className="email-me" href="mailto: nickkniola@me.com">
+                                            <FontAwesomeIcon className="envelope-mini-icon" icon={faEnvelope} size="lg" />
+                                        </a>
+                                        <a href="https://github.com/nickkniola" rel="noopener noreferrer" target="_blank">
+                                            <img className="contact-icon" src="assets/images/GitHub-Logo.png" alt="GitHub"></img>
+                                        </a>
+                                        <a href="https://www.linkedin.com/in/nicholaskniola/" rel="noopener noreferrer" target="_blank">
+                                            <img className="contact-icon" src="assets/images/LinkedIn.png" alt="LinkedIn"></img>
+                                        </a>
+                                    </Col>
+                                </Row>
                             </Col>
                         </Row>
                     </Col>
