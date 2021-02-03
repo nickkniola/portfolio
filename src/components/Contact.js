@@ -19,7 +19,7 @@ const Contact = () => {
                 <Row className="justify-content-center my-4">
                     <div className="justify-content-center">
                         <Col xs={12} className="d-flex justify-content-center">
-                            <a href="https://github.com/nickkniola" rel="noopener noreferrer" target="_blank"><Media object src="assets/images/GitHub-Logo.png" alt="Github logo" /></a>
+                            <a href="https://github.com/nickkniola" rel="noopener noreferrer" target="_blank"><Media object className="medium-icon" src="assets/images/github.svg" alt="Github logo" /></a>
                         </Col>
                         <Col xs={12} className="d-flex justify-content-center">
                             <a href="https://github.com/nickkniola" rel="noopener noreferrer" target="_blank">Github</a>
@@ -27,7 +27,7 @@ const Contact = () => {
                     </div>
                     <div className="justify-content-center">
                         <Col xs={12} className="d-flex justify-content-center">
-                            <a href="https://www.linkedin.com/in/nicholaskniola/" rel="noopener noreferrer" target="_blank"><Media object src="assets/images/LinkedIn.png" alt="Github logo" /></a>
+                            <a href="https://www.linkedin.com/in/nicholaskniola/" rel="noopener noreferrer" target="_blank"><Media object className="medium-icon" src="assets/images/linkedin.svg" alt="Github logo" /></a>
                         </Col>
                         <Col xs={12} className="d-flex justify-content-center">
                             <a href="https://www.linkedin.com/in/nicholaskniola/" rel="noopener noreferrer" target="_blank">LinkedIn</a>
