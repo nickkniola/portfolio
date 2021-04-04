@@ -20,7 +20,7 @@ const Header = () => {
 
     return (
         <React.Fragment>
-            <Navbar color="dark" className="navbar-dark navbar-expand-sm sticky-top">
+            <Navbar color="dark" className="navbar-dark navbar-expand-sm ">
                 <NavbarToggler color="white" onClick={toggleNav} />
                 <Collapse isOpen={isNavOpen} navbar>
                     <Nav className="mx-auto">
